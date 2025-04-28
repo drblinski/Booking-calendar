@@ -1,0 +1,14 @@
+// App.js
+import React from 'react';
+import './App.css';
+import LocationBookingCalendar from './LocationBookingCalendar';
+
+function App() {
+  return (
+    <div className="App">
+      <LocationBookingCalendar />
+    </div>
+  );
+}
+
+export default App;
